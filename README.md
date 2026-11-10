@@ -25,7 +25,7 @@ js/avatars.js       GLB 로드, 걷기 애니메이션, 썸네일, 캐릭터 선
 js/world.js         3D 월드 (섬, 광장, Top 3 시상대 팻말, NPC, 카메라)
 js/controls.js      가상 조이스틱 · 점프 · 카메라 드래그 · 키보드(WASD/Space)
 js/ui.js            입력 마법사 · 대시보드 · 근처 말풍선
-assets/models/      wii_characters_textured 의 *_outfits.glb 6종 (사복/과잠 토글)
+assets/models/      캐릭터 GLB 6종 (사복/과잠 토글) + 에셋 README(라이선스 안내)
 ```
 
 ## 방명록을 모두와 공유하려면 (Firebase)
@@ -69,4 +69,4 @@ service cloud.firestore {
 
 ## 에셋 출처
 
-과잠 시안 이미지는 스타장닷컴 저작물(비영리 사용)이므로 학술제 등 비영리 용도로만 사용하세요 (`wii_characters_textured/README.md` 참고).
+과잠 시안 이미지는 스타장닷컴 저작물(비영리 사용)이므로 학술제 등 비영리 용도로만 사용하세요 (`assets/models/README.md` 참고).
